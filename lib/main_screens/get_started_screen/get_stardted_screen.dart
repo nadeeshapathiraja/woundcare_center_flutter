@@ -12,10 +12,7 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        width: UtilFunction.screenWidth(context) / 2,
-        color: Colors.red,
-      ),
+      body: Container(),
     );
   }
 }
